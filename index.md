@@ -6,6 +6,8 @@ DanHans42 personal PSX Blog - https://psx0.wordpress.com/
 
 [ObscureGamer's Section on Sony Playstation 1 Programming & Tool-sets](https://www.obscuregamers.com/forums/sony-programming-development.8/?prefix_id=10)
 
+https://psx.amidog.se/doku.php
+
 
 ### Documentation:
 
@@ -16,6 +18,10 @@ DanHans42 personal PSX Blog - https://psx0.wordpress.com/
 [NoCa$h's PS1 Documentation](https://problemkaputt.de/psx-spx.htm) - See https://psx-spx.github.io/ for community-sourced updates
 
 [Padua's Playstation 1 Resource](http://web.archive.org/web/20170614051729/http://psx.padua.org/psxrul2.shtml) - A great wealth of technical info on the Playstation 1; very Assembly language heavy.
+
+["Introduction to PlayStation research, presented by Dr.Hell"](http://drhell.web.fc2.com/ps1/)
+
+[Dr.Hell's PocketStation Documentation](https://drhell.web.fc2.com/pocket/index.html)
 
 
 ### Reverse Engineering:
@@ -66,6 +72,8 @@ https://github.com/thentenaar/psx-gs - Gameshark Plugin for ePSXe 1.6-1.9
 [PS1 Psy-Q SDK](https://docs.google.com/uc?export=download&confirm=G9cM&id=0B_GAaDjR83rLZGVaZ2pvV2tjSVE) - Altered and Messy but Ready to Run. Use with [Runtime Library 4.6](http://psxdev.net/downloads/Psy-Q_46.zip)
 
 [PSn00bSDK] (https://github.com/Lameguy64/PSn00bSDK) - The most powerful open source SDK for the PS1, by LameGuy64. A video of it in action, can be viewed [here](https://www.youtube.com/watch?v=E5A96-pRF2w)
+
+https://github.com/JaCzekanski/psn00bsdk-docker - Docker image for PSn00bSDK development
 
 https://github.com/liangchunn/psn00b-docker - Docker Image for PSX Dev based on Psn00bsdk
 
