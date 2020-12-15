@@ -297,3 +297,9 @@ https://github.com/AlekseyKolesnikov/Classic-Card-Games-PSX - This is a game for
 https://github.com/williamblair/psn00b_progs - Playstation 1 Programs using PSn00bSDK
 
 https://github.com/L-proger/PS1Dev - PlayStation1 sandbox project
+
+https://github.com/juanmv94/Flappy-Adventure-X/ - Juannmv94's prototype 2D/3D flappy bird platformer
+
+https://github.com/sk-io/psx-engine - Tive's 3D FPS engine
+
+
