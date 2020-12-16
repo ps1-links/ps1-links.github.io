@@ -42,6 +42,7 @@ https://github.com/infval/SlowR3KA - PlayStation 1 Disassembler (MIPS R3000A)
 
 https://github.com/MonstersGoBoom/mips32 - mips32 disassembler and maybe emulator at some point
 
+https://macrox.gshi.org/The%20Hacking%20Text.htm - The secrets of professional gameshark hacking
 
 ### Hardware Modifications/Adapters:
 
