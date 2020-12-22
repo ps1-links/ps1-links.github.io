@@ -219,10 +219,19 @@ https://github.com/XaviDCR92/rspsxserial - A command line application which enab
 
 https://github.com/philosophofee/SBSPSS - The source code repository for the PlayStation 1 game, SpongeBob SquarePants: SuperSponge
 
+### Nugget stuff:
+'Nugget' is the nickname for compiling using modern GCC (often with docker) and optionally with converted PSYQ libraries.
+
+https://github.com/grumpycoders/pcsx-redux/tree/main/src/mips Some MIPS demos as part of PCSX-redux.
+
+https://github.com/ABelliqueux/nolibgs_hello_worlds (PSYQ) How to use the converted PSYQ libs in a Hello World example (nolibgs)
+
+https://github.com/NDR008/psxBreakout (PSYQ) NDR's Breakout game demo using PSQY + nugget.
+
+https://github.com/JonathanDotCel/helloworld_and_flappycredits (No PSYQ) A hello world GPU/Pads/Sprite example with no SDK.
+
 
 ### Source Code Examples: 
-
-https://github.com/JonathanDotCel/helloworld_and_flappycredits
 
 https://github.com/XaviDCR92/Pinballoid - Open-source Sony PlayStation 1 (PSX) video game
 
