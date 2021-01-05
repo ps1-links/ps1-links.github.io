@@ -215,6 +215,8 @@ https://github.com/apiraino/psx_pxfinder - A tool for Playstation 1 to retrieve 
 
 https://github.com/XaviDCR92/rspsxserial - A command line application which enables serial communications against a PlayStation 1
 
+https://github.com/ABelliqueux/blender_io_export_psx_mesh - Blender <=2.79b plugin to export meshes in a scene to a custom .c file
+
 
 ### Retail PS1 Source Code: 
 
@@ -303,4 +305,10 @@ https://github.com/juanmv94/Flappy-Adventure-X/ - Juannmv94's prototype 2D/3D fl
 
 https://github.com/sk-io/psx-engine - Tive's 3D FPS engine
 
+https://github.com/ABelliqueux/Bow_and_Arrow_psx - Remake of 1992's dos game Bow & Arrow
 
+https://github.com/ABelliqueux/nolibgs_hello_worlds - Repo of PSX examples NOT using libgs 
+
+https://wiki.arthus.net/ - a few tutorials for french readers
+
+https://psx.arthus.net - utils, sdk, roms, samples... archive 
