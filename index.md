@@ -309,6 +309,8 @@ https://github.com/ABelliqueux/Bow_and_Arrow_psx - Remake of 1992's dos game Bow
 
 https://github.com/ABelliqueux/nolibgs_hello_worlds - Repo of PSX examples NOT using libgs 
 
-https://wiki.arthus.net/ - a few tutorials for french readers
+[https://wiki.arthus.net](https://wiki.arthus.net) - a few tutorials for french readers
 
-https://psx.arthus.net - utils, sdk, roms, samples... archive 
+[https://psx.arthus.net](https://psx.arthus.net) - utils, sdk, roms, samples... archive 
+ 
+https://github.com/Galbar/GGJ-2017 - Deathball, game with ball physics
