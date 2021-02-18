@@ -332,6 +332,10 @@ https://github.com/jonipievilainen/playstation-1-game-dev
  
 [https://github.com/Galbar/GGJ-2017](https://github.com/Galbar/GGJ-2017) -  Deathball, game with ball physics
 
-[https://github.com/Wituz/wituz-youtube/tree/master/ps1-game-tutorial](https://github.com/Wituz/wituz-youtube/tree/master/ps1-game-tutorial) - Wituz's ps1 game tutorial companion github page
+[https://github.com/Wituz/wituz-youtube/tree/master/ps1-game-tutorial](https://github.com/Wituz/wituz-youtube/tree/master/ps1-game-tutorial) - Wituz's ps1 game tutorial companion github page  
 
-[https://download.blender.org/source/chest/neogeo/playstation_engine/](https://download.blender.org/source/chest/neogeo/playstation_engine/) - Legacy blender game engine code for PSX exports
+[https://download.blender.org/source/chest/neogeo/playstation_engine/](https://download.blender.org/source/chest/neogeo/playstation_engine/) - Legacy blender game engine code for PSX exports  
+
+[https://github.com/alextrevisan/PS1FixedPoint](https://github.com/alextrevisan/PS1FixedPoint) - FixedPoint Arithmetic in C++ for PS1 using PSn00bSDK and modern C++  
+
+[https://github.com/alextrevisan/LastSurvivor](https://github.com/alextrevisan/LastSurvivor) - PS1 Game using modern c++ and PSn00bSDK
