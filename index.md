@@ -228,6 +228,8 @@ tutorials & samples for developing for the PS1 and Net Yaroze.
 
 [https://github.com/YusufCelik/newroze](https://github.com/YusufCelik/newroze) - A PSX Debugger with a GDB server  
 
+[https://github.com/socram8888/tonyhax](https://github.com/socram8888/tonyhax) - Software backup loader exploit thing for the Sony PlayStation 1.
+
 
 ### Retail PS1 Source Code: 
 
