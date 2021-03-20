@@ -8,7 +8,8 @@
 
 [https://psx.amidog.se/doku.php](https://psx.amidog.se/doku.php)
 
-[http://psx.arthus.net/starting](http://psx.arthus.net/starting) Everything to get you started in PSX dev on one page
+[http://psx.arthus.net/starting](http://psx.arthus.net/starting) Everything to get you started in PSX dev on one page  
+
 
 ### Documentation:
 
@@ -45,6 +46,9 @@
 
 [https://macrox.gshi.org/The%20Hacking%20Text.htm](https://macrox.gshi.org/The%20Hacking%20Text.htm) -  The secrets of professional gameshark hacking
 
+[https://github.com/Erick194/PSXDOOM-RE](https://github.com/Erick194/PSXDOOM-RE) - Doom-RE
+
+
 ### Hardware Modifications/Adapters:
 
 [https://github.com/c0pperdragon/PS1YPbPrAdapter](https://github.com/c0pperdragon/PS1YPbPrAdapter) -  Sony Playstation YPbPr Adapter
@@ -62,7 +66,7 @@
 
 [https://github.com/tetious/pcsxr](https://github.com/tetious/pcsxr) -  PCSX-Reloaded is a PlayStation Emulator based on PCSX-df 1.9, with support for Windows, GNU/Linux and Mac OS X.
 
-https://github.com/joroOnLinux/pcsxr-1.9.92-Optimized
+[https://github.com/joroOnLinux/pcsxr-1.9.92-Optimized](https://github.com/joroOnLinux/pcsxr-1.9.92-Optimized) - pcsxr-opimized
 
 [https://github.com/briaguya/gpuPeopsOpenGL-camera](https://github.com/briaguya/gpuPeopsOpenGL-camera) -  PSX Open GL Graphics plugin with camera movement
 
@@ -75,7 +79,7 @@ https://github.com/joroOnLinux/pcsxr-1.9.92-Optimized
 
 [PS1 Psy-Q SDK](https://docs.google.com/uc?export=download&confirm=G9cM&id=0B_GAaDjR83rLZGVaZ2pvV2tjSVE) - Altered and Messy but Ready to Run. Use with [Runtime Library 4.6](http://psxdev.net/downloads/Psy-Q_46.zip)
 
-[PSn00bSDK] (https://github.com/Lameguy64/PSn00bSDK) - The most powerful open source SDK for the PS1, by LameGuy64. A video of it in action, can be viewed [here](https://www.youtube.com/watch?v=E5A96-pRF2w)
+[PSn00bSDK](https://github.com/Lameguy64/PSn00bSDK) - The most powerful open source SDK for the PS1, by LameGuy64. A video of it in action, can be viewed [here](https://www.youtube.com/watch?v=E5A96-pRF2w)
 
 [https://github.com/JaCzekanski/psn00bsdk-docker](https://github.com/JaCzekanski/psn00bsdk-docker) -  Docker image for PSn00bSDK development
 
@@ -222,24 +226,33 @@ tutorials & samples for developing for the PS1 and Net Yaroze.
 
 [https://github.com/gmarkall/psx-toolchain](https://github.com/gmarkall/psx-toolchain) - PSX toolchain building scripts
 
-[https://github.com/YusufCelik/newroze](https://github.com/YusufCelik/newroze) - A PSX Debugger with a GDB server
+[https://github.com/YusufCelik/newroze](https://github.com/YusufCelik/newroze) - A PSX Debugger with a GDB server  
+
 
 ### Retail PS1 Source Code: 
 
 [https://github.com/philosophofee/SBSPSS](https://github.com/philosophofee/SBSPSS) -  The source code repository for the PlayStation 1 game, SpongeBob SquarePants: SuperSponge
 
+[https://github.com/dizzy2003/MuckyFoot-UrbanChaos/tree/master/fallen/PSXENG](https://github.com/dizzy2003/MuckyFoot-UrbanChaos/tree/master/fallen/PSXENG) - MuckyFoot's 1996 Urban Chaos PC, PSX and maybe DC sources
+
+[https://archive.org/details/warcraftIIsourcecodePSX](https://archive.org/details/warcraftIIsourcecodePSX) - Blizzard's 1997 game Warcraft II PSX source code
+
+[https://archive.org/details/ReVoltXboxAndPCSourceCode](https://archive.org/details/ReVoltXboxAndPCSourceCode) - Acclaim's Re-Volt source code, PC/Xbox version but some PSX files remain in the archive
+
+
 ### Nugget stuff:
-'Nugget' is the nickname for compiling using modern GCC (often with docker) and optionally with converted PSYQ libraries.
 
-https://github.com/grumpycoders/pcsx-redux/tree/main/src/mips Some MIPS demos as part of PCSX-redux.
+'Nugget' is the nickname for the method of compiling PSX executables using a modern GCC (with docker) and optionally the converted Psy-Q libraries.  
 
-https://github.com/ABelliqueux/nolibgs_hello_worlds (PSYQ) How to use the converted PSYQ libs in a Hello World example (nolibgs)
+[https://github.com/grumpycoders/pcsx-redux/tree/main/src/mips](https://github.com/grumpycoders/pcsx-redux/tree/main/src/mips) - Some MIPS demos as part of PCSX-redux.  
 
-https://github.com/NDR008/psxBreakout (PSYQ) NDR's Breakout game demo using PSQY + nugget.
+[https://github.com/ABelliqueux/nolibgs_hello_worlds](https://github.com/ABelliqueux/nolibgs_hello_worlds) - PsyQ - How to use the converted PSYQ libs in various examples, without using PsyQ's libgs functions.  
 
-https://github.com/JonathanDotCel/helloworld_and_flappycredits (No PSYQ) A hello world GPU/Pads/Sprite example with no SDK.
+[https://github.com/NDR008/psxBreakout](https://github.com/NDR008/psxBreakout) - PsyQ - NDR's Breakout game demo using PSQY + nugget.  
 
-[Using Overlays without the PSY-Q Toolchain](https://github.com/JaberwockySeamonstah/PSXOverlayExample)
+[https://github.com/JonathanDotCel/helloworld_and_flappycredits](https://github.com/JonathanDotCel/helloworld_and_flappycredits) - No PSYQ - A hello world GPU/Pads/Sprite example with no SDK.  
+
+[https://github.com/JaberwockySeamonstah/PSXOverlayExample](https://github.com/JaberwockySeamonstah/PSXOverlayExample) - Using Overlays without the PSY-Q Toolchain  
 
 
 ### Source Code Examples: 
@@ -288,7 +301,7 @@ https://github.com/JonathanDotCel/helloworld_and_flappycredits (No PSYQ) A hello
 
 [https://github.com/david4599/Devinette-for-Playstation-1](https://github.com/david4599/Devinette-for-Playstation-1) -  Guessing Game (more or less) for the Playstation 1.
 
-https://github.com/jonipievilainen/playstation-1-game-dev 
+[https://github.com/jonipievilainen/playstation-1-game-dev](https://github.com/jonipievilainen/playstation-1-game-dev) - PSX development on WinXP + PsyQ 
 
 [https://github.com/petrusd987/PSXTemplate](https://github.com/petrusd987/PSXTemplate) -  A simple template for a Playstation 1 game using PSXSDK
 
@@ -325,8 +338,6 @@ https://github.com/jonipievilainen/playstation-1-game-dev
 [https://github.com/ABelliqueux/Bow_and_Arrow_psx](https://github.com/ABelliqueux/Bow_and_Arrow_psx) -  Remake of 1992's dos game Bow & Arrow
 
 [https://github.com/ABelliqueux/nolibgs_hello_worlds](https://github.com/ABelliqueux/nolibgs_hello_worlds) -  Repo of PSX examples NOT using libgs 
-
-[https://wiki.arthus.net](https://wiki.arthus.net) - a few tutorials for french readers
 
 [https://psx.arthus.net](https://psx.arthus.net) - utils, sdk, roms, samples... archive 
  
