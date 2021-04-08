@@ -51,6 +51,14 @@
 
 ### Hardware Modifications/Adapters:
 
+[https://github.com/x-station/xstation-releases](https://github.com/x-station/xstation-releases) - Optical Disk Emulator; Replace the optical disk with a sd-card reader
+
+[https://www.black-dog.tech/ps1digital.html](https://www.black-dog.tech/ps1digital.html) - PS1 Digital - Add HDMI video output to the PlayStation
+
+[https://shmups.system11.org/viewtopic.php?p=1341006#p1341006](https://shmups.system11.org/viewtopic.php?p=1341006#p1341006) PU-22 (SCPH-750x) csync mod 
+
+[http://mgarcia.org/Blog/2019-08-24-PSONE-Serial](http://mgarcia.org/Blog/2019-08-24-PSONE-Serial) - Adding SIO to a PSone (SCPH-102) 
+
 [https://github.com/c0pperdragon/PS1YPbPrAdapter](https://github.com/c0pperdragon/PS1YPbPrAdapter) -  Sony Playstation YPbPr Adapter
 
 [https://github.com/alekexe/Pandora-PS1-Mod](https://github.com/alekexe/Pandora-PS1-Mod) -  Pandora, an open source ESP8266 modchip for the Sony Playstation 1
@@ -60,6 +68,8 @@
 [https://github.com/ColdHeat/PsNeePy](https://github.com/ColdHeat/PsNeePy) -  A Playstation 1 Modchip written in Python
 
 [https://github.com/grumpycoders/pcsx-redux/wiki/PIO-port-replacement](https://github.com/grumpycoders/pcsx-redux/wiki/PIO-port-replacement) - PIO port replacement
+
+[https://quade.co/ps1-modchip-guide/](https://quade.co/ps1-modchip-guide/) - PlayStation 1 modchip installation guides
 
 
 ### Emulators:
@@ -122,15 +132,15 @@
 
 ### Programming Resources:
 
-[Krom's Playstation 1 ASM Tutorial Lessons](https://github.com/PeterLemon/PSX)
+[https://github.com/PeterLemon/PSX](https://github.com/PeterLemon/PSX) - PlayStation Bare Metal Mips Assembly Programming
 
-[Orionsoft's PSX Programming Tutorial Series - 2013](http://onorisoft.free.fr/psx/psx.htm#Tutorials)
+[http://onorisoft.free.fr/psx/psx.htm#Tutorials](http://onorisoft.free.fr/psx/psx.htm#Tutorials) - Orionsoft's PSX Programming Tutorial Series
 
-[Hitman's Playstation Archive](http://hitmen.c02.at/html/psx.html) - Great info & resources (last updated 2013) regarding programming on the Playstation 1.
+[http://hitmen.c02.at/html/psx.html](http://hitmen.c02.at/html/psx.html) - Hitman's Playstation Archive : Great info & resources (last updated 2013) regarding programming on the Playstation 1.
 
-[James' PSX Getting Started Tutorial](https://jum.pdroms.de/PSX/psxdevstart.html) - Great info (last updated 2013) regarding programming on the Playstation 1.
+[https://jum.pdroms.de/PSX/psxdevstart.html](https://jum.pdroms.de/PSX/psxdevstart.html) - James' PSX Getting Started Tutorial: Great info (last updated 2013) regarding programming on the Playstation 1.
 
-[Net Yaroze Website Backups](https://archive.org/details/webyaroze.7z) - Includes a bunch of official documentation, various tools & updates for pc/mac, as well as 
+[https://archive.org/details/webyaroze.7z](https://archive.org/details/webyaroze.7z) - Net Yaroze Website Backups : Includes a bunch of official documentation, various tools & updates for pc/mac, as well as 
 tutorials & samples for developing for the PS1 and Net Yaroze.
 
 [https://github.com/MatthewJohn/JurgHurg-PS1-tutorial](https://github.com/MatthewJohn/JurgHurg-PS1-tutorial) -  PS1 Homebrew Tutorial Code examples from Jurg Hurg Source from videos.
