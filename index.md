@@ -152,7 +152,18 @@ tutorials & samples for developing for the PS1 and Net Yaroze.
 [https://github.com/williamblair/PSX_App](https://github.com/williamblair/PSX_App) -  Class for making Playstation 1 apps using PSYQ
 
 
+### Exploits / Softmod
+
+[https://github.com/brad-lin/FreePSXBoot](https://github.com/brad-lin/FreePSXBoot) - Load arbitrary code on the PSX using only a memory card
+
+[https://github.com/JonathanDotCel/unirom8_bootdisc_and_firmware_for_ps1](https://github.com/JonathanDotCel/unirom8_bootdisc_and_firmware_for_ps1) -  Custom Xplorer/Action Replay firmware, bootdisc, import player (see NOTPSXserial)
+
+[https://github.com/socram8888/tonyhax](https://github.com/socram8888/tonyhax) - Software backup loader exploit using game specific savegames 
+
+
 ### Miscellaneous Tools/Utilities/Other:
+
+[https://github.com/JonathanDotCel/NOTPSXSerial](https://github.com/JonathanDotCel/NOTPSXSerial) - Serial transfer suite for Playstation 1 / Unirom
 
 [PSn00b-Debugger](https://github.com/Lameguy64/PSn00b-Debugger) - An Open source debugging utility for the Original PlayStation, by LameGuy64.
 
@@ -238,7 +249,6 @@ tutorials & samples for developing for the PS1 and Net Yaroze.
 
 [https://github.com/YusufCelik/newroze](https://github.com/YusufCelik/newroze) - A PSX Debugger with a GDB server  
 
-[https://github.com/socram8888/tonyhax](https://github.com/socram8888/tonyhax) - Software backup loader exploit thing for the Sony PlayStation 1.
 
 
 ### Retail PS1 Source Code: 
