@@ -11,6 +11,21 @@
 [http://psx.arthus.net/starting](http://psx.arthus.net/starting) Everything to get you started in PSX dev on one page  
 
 
+### SDK set-up - Nugget stuff:
+
+'Nugget' is the nickname for the method of compiling PSX executables using a modern GCC (with docker) and optionally the converted Psy-Q libraries.  
+
+[https://github.com/grumpycoders/pcsx-redux/tree/main/src/mips](https://github.com/grumpycoders/pcsx-redux/tree/main/src/mips) - Some MIPS demos as part of PCSX-redux.  
+
+[https://github.com/ABelliqueux/nolibgs_hello_worlds](https://github.com/ABelliqueux/nolibgs_hello_worlds) - PsyQ - How to use the converted PSYQ libs in various examples, without using PsyQ's libgs functions.  
+
+[https://github.com/NDR008/VSCodePSX](https://github.com/NDR008/VSCodePSX) - Get coding for PSX on Win 10 64bit with VS Code and GDB
+
+[https://github.com/JonathanDotCel/helloworld_and_flappycredits](https://github.com/JonathanDotCel/helloworld_and_flappycredits) - No PSYQ - A hello world GPU/Pads/Sprite example with no SDK.  
+
+[https://github.com/JaberwockySeamonstah/PSXOverlayExample](https://github.com/JaberwockySeamonstah/PSXOverlayExample) - Using Overlays without the PSY-Q Toolchain  
+
+
 ### Documentation:
 
 [MIPS Instruction Set](https://app.box.com/s/5917337e62e9d034c6c1) - The MIPS instruction set for the PlayStation 1 R3000A CPU.
@@ -262,21 +277,6 @@ tutorials & samples for developing for the PS1 and Net Yaroze.
 [https://archive.org/details/ReVoltXboxAndPCSourceCode](https://archive.org/details/ReVoltXboxAndPCSourceCode) - Acclaim's Re-Volt source code, PC/Xbox version but some PSX files remain in the archive
 
 
-### Nugget stuff:
-
-'Nugget' is the nickname for the method of compiling PSX executables using a modern GCC (with docker) and optionally the converted Psy-Q libraries.  
-
-[https://github.com/grumpycoders/pcsx-redux/tree/main/src/mips](https://github.com/grumpycoders/pcsx-redux/tree/main/src/mips) - Some MIPS demos as part of PCSX-redux.  
-
-[https://github.com/ABelliqueux/nolibgs_hello_worlds](https://github.com/ABelliqueux/nolibgs_hello_worlds) - PsyQ - How to use the converted PSYQ libs in various examples, without using PsyQ's libgs functions.  
-
-[https://github.com/NDR008/psxBreakout](https://github.com/NDR008/psxBreakout) - PsyQ - NDR's Breakout game demo using PSQY + nugget.  
-
-[https://github.com/JonathanDotCel/helloworld_and_flappycredits](https://github.com/JonathanDotCel/helloworld_and_flappycredits) - No PSYQ - A hello world GPU/Pads/Sprite example with no SDK.  
-
-[https://github.com/JaberwockySeamonstah/PSXOverlayExample](https://github.com/JaberwockySeamonstah/PSXOverlayExample) - Using Overlays without the PSY-Q Toolchain  
-
-
 ### Source Code Examples: 
 
 [https://github.com/XaviDCR92/Pinballoid](https://github.com/XaviDCR92/Pinballoid) -  Open-source Sony PlayStation 1 (PSX) video game
@@ -372,3 +372,7 @@ tutorials & samples for developing for the PS1 and Net Yaroze.
 [https://github.com/alextrevisan/PS1FixedPoint](https://github.com/alextrevisan/PS1FixedPoint) - FixedPoint Arithmetic in C++ for PS1 using PSn00bSDK and modern C++  
 
 [https://github.com/alextrevisan/LastSurvivor](https://github.com/alextrevisan/LastSurvivor) - PS1 Game using modern c++ and PSn00bSDK
+
+[https://github.com/NDR008/psxBreakout](https://github.com/NDR008/psxBreakout) - PsyQ - NDR's Breakout game demo using PSQY + nugget.  
+
+[https://github.com/ABelliqueux/ovl-upload](https://github.com/ABelliqueux/ovl-upload) - On-demand overlay upload from PC to PSX
