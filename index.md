@@ -376,3 +376,5 @@ tutorials & samples for developing for the PS1 and Net Yaroze.
 [https://github.com/NDR008/psxBreakout](https://github.com/NDR008/psxBreakout) - PsyQ - NDR's Breakout game demo using PSQY + nugget.  
 
 [https://github.com/ABelliqueux/ovl-upload](https://github.com/ABelliqueux/ovl-upload) - On-demand overlay upload from PC to PSX
+
+[https://github.com/cuckydev/PSXFunkin](https://github.com/cuckydev/PSXFunkin) - Unofficial PSX port of Friday Night Funkin'
