@@ -4,13 +4,17 @@
 @import "{{ site.theme }}";
 
 body{
-    background-image:url('/assets/psxback1.jpg') repeat;
+    background-image:url('../psxback1.jpg');
 }
 
 h1, h2, h3, h4, h5 {
-    font-weight: bold;
+    font-weight: bold !important;
+}
+
+.main-content{
+    background-color: #ffffffc4;
 }
 
 .page-header{
-    padding: none;
+    padding: 0;
 }
