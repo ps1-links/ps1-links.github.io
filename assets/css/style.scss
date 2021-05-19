@@ -1,4 +1,7 @@
-@import "jekyll-theme-cayman";
+---
+---
+
+@import "{{ site.theme }}";
 
 body{
     background-image:url('/assets/psxback1.jpg') repeat;
