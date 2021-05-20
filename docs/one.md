@@ -1,32 +1,25 @@
-### Other Sites:
+# ps1-links
 
-[PSXDEV](http://www.psxdev.net/forum/index.php) - The Ultimate Resource for anything related to PS1 Development (Docs, Software, Tools, etc.)
+## PSX development links center
 
-[https://psx0.wordpress.com/](https://psx0.wordpress.com/) - DanHans42 personal PSX Blog
+Welcome to the PSX development links center, where all the links related to development on the first Playstation meet !
 
-[ObscureGamer's Section on Sony Playstation 1 Programming & Tool-sets](https://www.obscuregamers.com/forums/sony-programming-development.8/?prefix_id=10)
+You can find a one page version of this site here : One page version
 
-[https://psx.amidog.se/doku.php](https://psx.amidog.se/doku.php)
+Documentations
+Emulators
+Exploits & softmods
+Hardware mods & adapters
+Misc., tools & others
+Nugget stuff
+Others sites
+Programming ressources
+Retail source code
+Reverse_engineering
+SDKs, toolchains & libraries
+Source code examples
 
-[http://psx.arthus.net/starting](http://psx.arthus.net/starting) Everything to get you started in PSX dev on one page  
-
-
-### SDK set-up - Nugget stuff:
-
-'Nugget' is the nickname for the method of compiling PSX executables using a modern GCC (with docker) and optionally the converted Psy-Q libraries.  
-
-[https://github.com/grumpycoders/pcsx-redux/tree/main/src/mips](https://github.com/grumpycoders/pcsx-redux/tree/main/src/mips) - Some MIPS demos as part of PCSX-redux.  
-
-[https://github.com/ABelliqueux/nolibgs_hello_worlds](https://github.com/ABelliqueux/nolibgs_hello_worlds) - PsyQ - How to use the converted PSYQ libs in various examples, without using PsyQ's libgs functions.  
-
-[https://github.com/NDR008/VSCodePSX](https://github.com/NDR008/VSCodePSX) - Get coding for PSX on Win 10 64bit with VS Code and GDB
-
-[https://github.com/JonathanDotCel/helloworld_and_flappycredits](https://github.com/JonathanDotCel/helloworld_and_flappycredits) - No PSYQ - A hello world GPU/Pads/Sprite example with no SDK.  
-
-[https://github.com/JaberwockySeamonstah/PSXOverlayExample](https://github.com/JaberwockySeamonstah/PSXOverlayExample) - Using Overlays without the PSY-Q Toolchain  
-
-
-### Documentation:
+# Documentations
 
 [MIPS Instruction Set](https://app.box.com/s/5917337e62e9d034c6c1) - The MIPS instruction set for the PlayStation 1 R3000A CPU.
 
@@ -40,39 +33,35 @@
 
 [Dr.Hell's PocketStation Documentation](https://drhell.web.fc2.com/pocket/index.html)
 
+# Emulators
 
-### Reverse Engineering:
+[https://github.com/tetious/pcsxr](https://github.com/tetious/pcsxr) -  PCSX-Reloaded is a PlayStation Emulator based on PCSX-df 1.9, with support for Windows, GNU/Linux and Mac OS X.
 
-[https://github.com/JaCzekanski/ps1-tests](https://github.com/JaCzekanski/ps1-tests) -  Collection of PlayStation 1 tests for emulator development
+[https://github.com/joroOnLinux/pcsxr-1.9.92-Optimized](https://github.com/joroOnLinux/pcsxr-1.9.92-Optimized) - pcsxr-opimized
 
-[https://github.com/ogamespec/psxdev](https://github.com/ogamespec/psxdev) -  Sony PlayStation chips reverse engineering.
+[https://github.com/briaguya/gpuPeopsOpenGL-camera](https://github.com/briaguya/gpuPeopsOpenGL-camera) -  PSX Open GL Graphics plugin with camera movement
 
-[https://github.com/Laxer3a/MDEC](https://github.com/Laxer3a/MDEC) -  Attempt to verilog Implementation of Playstation 1 (PSX) chips.
+[https://github.com/myst6re/highly_experimental](https://github.com/myst6re/highly_experimental) -  PSX Emulator made to emulate the SPU
 
-[https://github.com/pgate1/PlayStation_on_FPGA](https://github.com/pgate1/PlayStation_on_FPGA) -  Playstation on an FPGA
+[https://github.com/thentenaar/psx-gs](https://github.com/thentenaar/psx-gs) -  Gameshark Plugin for ePSXe 1.6-1.9
 
-[https://github.com/emvivre/Sony-PS1-executable-disassembler](https://github.com/emvivre/Sony-PS1-executable-disassembler) -  Simple disassembler of Sony Playstation executable (MIPS R3000A instruction set).
+# Exploits & Softmods
 
-[https://github.com/Happy-Ferret/sym](https://github.com/Happy-Ferret/sym) -  Parse Playstation 1 symbol files (*.SYM).
+[https://github.com/brad-lin/FreePSXBoot](https://github.com/brad-lin/FreePSXBoot) - Load arbitrary code on the PSX using only a memory card
 
-[https://github.com/infval/SlowR3KA](https://github.com/infval/SlowR3KA) -  PlayStation 1 Disassembler (MIPS R3000A)
+[https://github.com/JonathanDotCel/unirom8_bootdisc_and_firmware_for_ps1](https://github.com/JonathanDotCel/unirom8_bootdisc_and_firmware_for_ps1) -  Custom Xplorer/Action Replay firmware, bootdisc, import player (see NOTPSXserial)
 
-[https://github.com/MonstersGoBoom/mips32](https://github.com/MonstersGoBoom/mips32) -  mips32 disassembler and maybe emulator at some point
+[https://github.com/socram8888/tonyhax](https://github.com/socram8888/tonyhax) - Software backup loader exploit using game specific savegames
 
-[https://macrox.gshi.org/The%20Hacking%20Text.htm](https://macrox.gshi.org/The%20Hacking%20Text.htm) -  The secrets of professional gameshark hacking
-
-[https://github.com/Erick194/PSXDOOM-RE](https://github.com/Erick194/PSXDOOM-RE) - Doom-RE
-
-
-### Hardware Modifications/Adapters:
+# Hardware, mods & adapters
 
 [https://github.com/x-station/xstation-releases](https://github.com/x-station/xstation-releases) - Optical Disk Emulator; Replace the optical disk with a sd-card reader
 
 [https://www.black-dog.tech/ps1digital.html](https://www.black-dog.tech/ps1digital.html) - PS1 Digital - Add HDMI video output to the PlayStation
 
-[https://shmups.system11.org/viewtopic.php?p=1341006#p1341006](https://shmups.system11.org/viewtopic.php?p=1341006#p1341006) PU-22 (SCPH-750x) csync mod 
+[https://shmups.system11.org/viewtopic.php?p=1341006#p1341006](https://shmups.system11.org/viewtopic.php?p=1341006#p1341006) PU-22 (SCPH-750x) csync mod
 
-[http://mgarcia.org/Blog/2019-08-24-PSONE-Serial](http://mgarcia.org/Blog/2019-08-24-PSONE-Serial) - Adding SIO to a PSone (SCPH-102) 
+[http://mgarcia.org/Blog/2019-08-24-PSONE-Serial](http://mgarcia.org/Blog/2019-08-24-PSONE-Serial) - Adding SIO to a PSone (SCPH-102)
 
 [https://github.com/c0pperdragon/PS1YPbPrAdapter](https://github.com/c0pperdragon/PS1YPbPrAdapter) -  Sony Playstation YPbPr Adapter
 
@@ -86,97 +75,7 @@
 
 [https://quade.co/ps1-modchip-guide/](https://quade.co/ps1-modchip-guide/) - PlayStation 1 modchip installation guides
 
-
-### Emulators:
-
-[https://github.com/tetious/pcsxr](https://github.com/tetious/pcsxr) -  PCSX-Reloaded is a PlayStation Emulator based on PCSX-df 1.9, with support for Windows, GNU/Linux and Mac OS X.
-
-[https://github.com/joroOnLinux/pcsxr-1.9.92-Optimized](https://github.com/joroOnLinux/pcsxr-1.9.92-Optimized) - pcsxr-opimized
-
-[https://github.com/briaguya/gpuPeopsOpenGL-camera](https://github.com/briaguya/gpuPeopsOpenGL-camera) -  PSX Open GL Graphics plugin with camera movement
-
-[https://github.com/myst6re/highly_experimental](https://github.com/myst6re/highly_experimental) -  PSX Emulator made to emulate the SPU
-
-[https://github.com/thentenaar/psx-gs](https://github.com/thentenaar/psx-gs) -  Gameshark Plugin for ePSXe 1.6-1.9
-
-
-### SDKs/Toolchains/Libraries:
-
-[PS1 Psy-Q SDK](https://docs.google.com/uc?export=download&confirm=G9cM&id=0B_GAaDjR83rLZGVaZ2pvV2tjSVE) - Altered and Messy but Ready to Run. Use with [Runtime Library 4.6](http://psxdev.net/downloads/Psy-Q_46.zip)
-
-[PSn00bSDK](https://github.com/Lameguy64/PSn00bSDK) - The most powerful open source SDK for the PS1, by LameGuy64. A video of it in action, can be viewed [here](https://www.youtube.com/watch?v=E5A96-pRF2w)
-
-[https://github.com/JaCzekanski/psn00bsdk-docker](https://github.com/JaCzekanski/psn00bsdk-docker) -  Docker image for PSn00bSDK development
-
-[https://github.com/liangchunn/psn00b-docker](https://github.com/liangchunn/psn00b-docker) -  Docker Image for PSX Dev based on Psn00bsdk
-
-[https://github.com/nathanhi/psxsdk](https://github.com/nathanhi/psxsdk) -  PSXSDK version 0.5
-
-[https://github.com/XaviDCR92/psxsdk-20150729 ](https://github.com/XaviDCR92/psxsdk-20150729 ) -  Fork of official 0.599 version of PSXSDK with new experimental features.
-
-[https://github.com/ggrtk/psxsdk-20190410](https://github.com/ggrtk/psxsdk-20190410) -  Mirror of official 0.6.2 PSXSDK release with additional comments, precompiled x86_64 Linux binaries (deprecated)
-
-[https://github.com/eagarciam/psxsdk](https://github.com/eagarciam/psxsdk) -  Mirror of the previous mirror
-
-[https://github.com/XaviDCR92/psxsdk](https://github.com/XaviDCR92/psxsdk) -  Fork of psxsdk-20190410 with minor tweaks (recommended version of psxsdk)
-
-[https://github.com/ChenThread/candyk-psx](https://github.com/ChenThread/candyk-psx) - PlayStation 1 Will Never Die - Topic set on 2014-05-04
-
-[https://github.com/ChenThread/candyk-packages](https://github.com/ChenThread/candyk-packages) -  Pacman package recipes for CandyK SDK
-
-[https://github.com/Kannagi/LMP3D](https://github.com/Kannagi/LMP3D) -  Multi Platform 3D Library for PlayStation 1 / etc.. 
-
-[https://github.com/olirehacek/Yaroze.net](https://github.com/olirehacek/Yaroze.net) -  Open-Source Sony Playstation 1 development tools.
-
-[https://github.com/ChrisRx/mipsel-ecoff-toolchain](https://github.com/ChrisRx/mipsel-ecoff-toolchain) -  Net Yaroze cross compiler toolchain for linux
-
-[https://github.com/plekakis/psxdev](https://github.com/plekakis/psxdev) -  PSX development toolkit
-
-[https://github.com/ChrisRx/psxsdk](https://github.com/ChrisRx/psxsdk) -  psxsdk is a collection of tools and libraries for Playstation 1 development
-
-[https://github.com/g4jc/psxdev](https://github.com/g4jc/psxdev) -  Recovered files from PSXDev.de for PSOne indie game development on GNU/Linux.
-
-[https://github.com/lmirel/fatfs_psx](https://github.com/lmirel/fatfs_psx) -  embedded fatfs/exfat implementation for psx
-
-[https://github.com/impiaaa/psx-newlib](https://github.com/impiaaa/psx-newlib) -  Newlib on the PlayStation 1
-
-[https://github.com/JustinLloyd/SONY-PSX-Debug-Font](https://github.com/JustinLloyd/SONY-PSX-Debug-Font) -  SONY PSX Debug Font
-
-[https://github.com/AustinMooreT/PSX_MauriceLib](https://github.com/AustinMooreT/PSX_MauriceLib) -  Work in progress high level library for PlayStation 1 development using psy-q.
-
-
-### Programming Resources:
-
-[https://github.com/PeterLemon/PSX](https://github.com/PeterLemon/PSX) - PlayStation Bare Metal Mips Assembly Programming
-
-[http://onorisoft.free.fr/psx/psx.htm#Tutorials](http://onorisoft.free.fr/psx/psx.htm#Tutorials) - Orionsoft's PSX Programming Tutorial Series
-
-[http://hitmen.c02.at/html/psx.html](http://hitmen.c02.at/html/psx.html) - Hitman's Playstation Archive : Great info & resources (last updated 2013) regarding programming on the Playstation 1.
-
-[https://jum.pdroms.de/PSX/psxdevstart.html](https://jum.pdroms.de/PSX/psxdevstart.html) - James' PSX Getting Started Tutorial: Great info (last updated 2013) regarding programming on the Playstation 1.
-
-[https://archive.org/details/webyaroze.7z](https://archive.org/details/webyaroze.7z) - Net Yaroze Website Backups : Includes a bunch of official documentation, various tools & updates for pc/mac, as well as 
-tutorials & samples for developing for the PS1 and Net Yaroze.
-
-[https://github.com/MatthewJohn/JurgHurg-PS1-tutorial](https://github.com/MatthewJohn/JurgHurg-PS1-tutorial) -  PS1 Homebrew Tutorial Code examples from Jurg Hurg Source from videos.
-
-[https://github.com/giulioz/PSX-Example](https://github.com/giulioz/PSX-Example) -  Example for building programs for Sony Playstation 1 (PSX), using Docker.
-
-[https://github.com/Bigbudddo/psx-pong](https://github.com/Bigbudddo/psx-pong) -  A repo for building and learning how to create games for the Playstation 1 (PSX). It will be a simple game of Pong.
-
-[https://github.com/williamblair/PSX_App](https://github.com/williamblair/PSX_App) -  Class for making Playstation 1 apps using PSYQ
-
-
-### Exploits / Softmod
-
-[https://github.com/brad-lin/FreePSXBoot](https://github.com/brad-lin/FreePSXBoot) - Load arbitrary code on the PSX using only a memory card
-
-[https://github.com/JonathanDotCel/unirom8_bootdisc_and_firmware_for_ps1](https://github.com/JonathanDotCel/unirom8_bootdisc_and_firmware_for_ps1) -  Custom Xplorer/Action Replay firmware, bootdisc, import player (see NOTPSXserial)
-
-[https://github.com/socram8888/tonyhax](https://github.com/socram8888/tonyhax) - Software backup loader exploit using game specific savegames 
-
-
-### Miscellaneous Tools/Utilities/Other:
+# Misc., tools & others
 
 [https://github.com/JonathanDotCel/NOTPSXSerial](https://github.com/JonathanDotCel/NOTPSXSerial) - Serial transfer suite for Playstation 1 / Unirom
 
@@ -224,7 +123,7 @@ tutorials & samples for developing for the PS1 and Net Yaroze.
 
 [https://github.com/apiraino/psx_pxfinder](https://github.com/apiraino/psx_pxfinder) -  A tool for Playstation 1 to retrieve screen coordinates using a crosshair
 
-[https://github.com/gwald/Yarexe](https://github.com/gwald/Yarexe) -  converts Net Yaroze ecoff and siocon's script to a psx.exe 
+[https://github.com/gwald/Yarexe](https://github.com/gwald/Yarexe) -  converts Net Yaroze ecoff and siocon's script to a psx.exe
 
 [https://github.com/dantob/psxmcr](https://github.com/dantob/psxmcr) -  dump data from a psx save file (raw or mcs)
 
@@ -262,11 +161,56 @@ tutorials & samples for developing for the PS1 and Net Yaroze.
 
 [https://github.com/gmarkall/psx-toolchain](https://github.com/gmarkall/psx-toolchain) - PSX toolchain building scripts
 
-[https://github.com/YusufCelik/newroze](https://github.com/YusufCelik/newroze) - A PSX Debugger with a GDB server  
+[https://github.com/YusufCelik/newroze](https://github.com/YusufCelik/newroze) - A PSX Debugger with a GDB server
 
+# Nugget stuff
 
+'Nugget' is the nickname for the method of compiling PSX executables using a modern GCC (with docker) and optionally the converted Psy-Q libraries.
 
-### Retail PS1 Source Code: 
+[https://github.com/grumpycoders/pcsx-redux/tree/main/src/mips](https://github.com/grumpycoders/pcsx-redux/tree/main/src/mips) - Some MIPS demos as part of PCSX-redux.
+
+[https://github.com/ABelliqueux/nolibgs_hello_worlds](https://github.com/ABelliqueux/nolibgs_hello_worlds) - PsyQ - How to use the converted PSYQ libs in various examples, without using PsyQ's libgs functions.
+
+[https://github.com/NDR008/VSCodePSX](https://github.com/NDR008/VSCodePSX) - Get coding for PSX on Win 10 64bit with VS Code and GDB
+
+[https://github.com/JonathanDotCel/helloworld_and_flappycredits](https://github.com/JonathanDotCel/helloworld_and_flappycredits) - No PSYQ - A hello world GPU/Pads/Sprite example with no SDK.
+
+[https://github.com/JaberwockySeamonstah/PSXOverlayExample](https://github.com/JaberwockySeamonstah/PSXOverlayExample) - Using Overlays without the PSY-Q Toolchain
+
+# Other links
+
+[PSXDEV](http://www.psxdev.net/forum/index.php) - The Ultimate Resource for anything related to PS1 Development (Docs, Software, Tools, etc.)
+
+[https://psx0.wordpress.com/](https://psx0.wordpress.com/) - DanHans42 personal PSX Blog
+
+[ObscureGamer's Section on Sony Playstation 1 Programming & Tool-sets](https://www.obscuregamers.com/forums/sony-programming-development.8/?prefix_id=10)
+
+[https://psx.amidog.se/doku.php](https://psx.amidog.se/doku.php)
+
+[http://psx.arthus.net/starting](http://psx.arthus.net/starting) Everything to get you started in PSX dev on one page
+
+# Programming ressources
+
+[https://github.com/PeterLemon/PSX](https://github.com/PeterLemon/PSX) - PlayStation Bare Metal Mips Assembly Programming
+
+[http://onorisoft.free.fr/psx/psx.htm#Tutorials](http://onorisoft.free.fr/psx/psx.htm#Tutorials) - Orionsoft's PSX Programming Tutorial Series
+
+[http://hitmen.c02.at/html/psx.html](http://hitmen.c02.at/html/psx.html) - Hitman's Playstation Archive : Great info & resources (last updated 2013) regarding programming on the Playstation 1.
+
+[https://jum.pdroms.de/PSX/psxdevstart.html](https://jum.pdroms.de/PSX/psxdevstart.html) - James' PSX Getting Started Tutorial: Great info (last updated 2013) regarding programming on the Playstation 1.
+
+[https://archive.org/details/webyaroze.7z](https://archive.org/details/webyaroze.7z) - Net Yaroze Website Backups : Includes a bunch of official documentation, various tools & updates for pc/mac, as well as
+tutorials & samples for developing for the PS1 and Net Yaroze.
+
+[https://github.com/MatthewJohn/JurgHurg-PS1-tutorial](https://github.com/MatthewJohn/JurgHurg-PS1-tutorial) -  PS1 Homebrew Tutorial Code examples from Jurg Hurg Source from videos.
+
+[https://github.com/giulioz/PSX-Example](https://github.com/giulioz/PSX-Example) -  Example for building programs for Sony Playstation 1 (PSX), using Docker.
+
+[https://github.com/Bigbudddo/psx-pong](https://github.com/Bigbudddo/psx-pong) -  A repo for building and learning how to create games for the Playstation 1 (PSX). It will be a simple game of Pong.
+
+[https://github.com/williamblair/PSX_App](https://github.com/williamblair/PSX_App) -  Class for making Playstation 1 apps using PSYQ
+
+# Retail source code
 
 [https://github.com/philosophofee/SBSPSS](https://github.com/philosophofee/SBSPSS) -  The source code repository for the PlayStation 1 game, SpongeBob SquarePants: SuperSponge
 
@@ -276,8 +220,39 @@ tutorials & samples for developing for the PS1 and Net Yaroze.
 
 [https://archive.org/details/ReVoltXboxAndPCSourceCode](https://archive.org/details/ReVoltXboxAndPCSourceCode) - Acclaim's Re-Volt source code, PC/Xbox version but some PSX files remain in the archive
 
+# Reverse engineering
 
-### Source Code Examples: 
+[https://github.com/JaCzekanski/ps1-tests](https://github.com/JaCzekanski/ps1-tests) -  Collection of PlayStation 1 tests for emulator development
+
+[https://github.com/ogamespec/psxdev](https://github.com/ogamespec/psxdev) -  Sony PlayStation chips reverse engineering.
+
+[https://github.com/Laxer3a/MDEC](https://github.com/Laxer3a/MDEC) -  Attempt to verilog Implementation of Playstation 1 (PSX) chips.
+
+[https://github.com/pgate1/PlayStation_on_FPGA](https://github.com/pgate1/PlayStation_on_FPGA) -  Playstation on an FPGA
+
+[https://github.com/emvivre/Sony-PS1-executable-disassembler](https://github.com/emvivre/Sony-PS1-executable-disassembler) -  Simple disassembler of Sony Playstation executable (MIPS R3000A instruction set).
+
+[https://github.com/Happy-Ferret/sym](https://github.com/Happy-Ferret/sym) -  Parse Playstation 1 symbol files (*.SYM).
+
+[https://github.com/infval/SlowR3KA](https://github.com/infval/SlowR3KA) -  PlayStation 1 Disassembler (MIPS R3000A)
+
+[https://github.com/MonstersGoBoom/mips32](https://github.com/MonstersGoBoom/mips32) -  mips32 disassembler and maybe emulator at some point
+
+[https://macrox.gshi.org/The%20Hacking%20Text.htm](https://macrox.gshi.org/The%20Hacking%20Text.htm) -  The secrets of professional gameshark hacking
+
+[https://github.com/Erick194/PSXDOOM-RE](https://github.com/Erick194/PSXDOOM-RE) - Doom-RE
+
+# SDKs, tollchains & libraries
+
+[https://github.com/philosophofee/SBSPSS](https://github.com/philosophofee/SBSPSS) -  The source code repository for the PlayStation 1 game, SpongeBob SquarePants: SuperSponge
+
+[https://github.com/dizzy2003/MuckyFoot-UrbanChaos/tree/master/fallen/PSXENG](https://github.com/dizzy2003/MuckyFoot-UrbanChaos/tree/master/fallen/PSXENG) - MuckyFoot's 1996 Urban Chaos PC, PSX and maybe DC sources
+
+[https://archive.org/details/warcraftIIsourcecodePSX](https://archive.org/details/warcraftIIsourcecodePSX) - Blizzard's 1997 game Warcraft II PSX source code
+
+[https://archive.org/details/ReVoltXboxAndPCSourceCode](https://archive.org/details/ReVoltXboxAndPCSourceCode) - Acclaim's Re-Volt source code, PC/Xbox version but some PSX files remain in the archive
+
+# Source code examples
 
 [https://github.com/XaviDCR92/Pinballoid](https://github.com/XaviDCR92/Pinballoid) -  Open-source Sony PlayStation 1 (PSX) video game
 
@@ -323,7 +298,7 @@ tutorials & samples for developing for the PS1 and Net Yaroze.
 
 [https://github.com/david4599/Devinette-for-Playstation-1](https://github.com/david4599/Devinette-for-Playstation-1) -  Guessing Game (more or less) for the Playstation 1.
 
-[https://github.com/jonipievilainen/playstation-1-game-dev](https://github.com/jonipievilainen/playstation-1-game-dev) - PSX development on WinXP + PsyQ 
+[https://github.com/jonipievilainen/playstation-1-game-dev](https://github.com/jonipievilainen/playstation-1-game-dev) - PSX development on WinXP + PsyQ
 
 [https://github.com/petrusd987/PSXTemplate](https://github.com/petrusd987/PSXTemplate) -  A simple template for a Playstation 1 game using PSXSDK
 
@@ -359,20 +334,23 @@ tutorials & samples for developing for the PS1 and Net Yaroze.
 
 [https://github.com/ABelliqueux/Bow_and_Arrow_psx](https://github.com/ABelliqueux/Bow_and_Arrow_psx) -  Remake of 1992's dos game Bow & Arrow
 
-[https://github.com/ABelliqueux/nolibgs_hello_worlds](https://github.com/ABelliqueux/nolibgs_hello_worlds) -  Repo of PSX examples NOT using libgs 
+[https://github.com/ABelliqueux/nolibgs_hello_worlds](https://github.com/ABelliqueux/nolibgs_hello_worlds) -  Repo of PSX examples NOT using libgs
 
-[https://psx.arthus.net](https://psx.arthus.net) - utils, sdk, roms, samples... archive 
- 
+[https://psx.arthus.net](https://psx.arthus.net) - utils, sdk, roms, samples... archive
+
 [https://github.com/Galbar/GGJ-2017](https://github.com/Galbar/GGJ-2017) -  Deathball, game with ball physics
 
-[https://github.com/Wituz/wituz-youtube/tree/master/ps1-game-tutorial](https://github.com/Wituz/wituz-youtube/tree/master/ps1-game-tutorial) - Wituz's ps1 game tutorial companion github page  
+[https://github.com/Wituz/wituz-youtube/tree/master/ps1-game-tutorial](https://github.com/Wituz/wituz-youtube/tree/master/ps1-game-tutorial) - Wituz's ps1 game tutorial companion github page
 
-[https://download.blender.org/source/chest/neogeo/playstation_engine/](https://download.blender.org/source/chest/neogeo/playstation_engine/) - Legacy blender game engine code for PSX exports  
+[https://download.blender.org/source/chest/neogeo/playstation_engine/](https://download.blender.org/source/chest/neogeo/playstation_engine/) - Legacy blender game engine code for PSX exports
 
-[https://github.com/alextrevisan/PS1FixedPoint](https://github.com/alextrevisan/PS1FixedPoint) - FixedPoint Arithmetic in C++ for PS1 using PSn00bSDK and modern C++  
+[https://github.com/alextrevisan/PS1FixedPoint](https://github.com/alextrevisan/PS1FixedPoint) - FixedPoint Arithmetic in C++ for PS1 using PSn00bSDK and modern C++
 
 [https://github.com/alextrevisan/LastSurvivor](https://github.com/alextrevisan/LastSurvivor) - PS1 Game using modern c++ and PSn00bSDK
 
-[https://github.com/NDR008/psxBreakout](https://github.com/NDR008/psxBreakout) - PsyQ - NDR's Breakout game demo using PSQY + nugget.  
+[https://github.com/NDR008/psxBreakout](https://github.com/NDR008/psxBreakout) - PsyQ - NDR's Breakout game demo using PSQY + nugget.
 
 [https://github.com/ABelliqueux/ovl-upload](https://github.com/ABelliqueux/ovl-upload) - On-demand overlay upload from PC to PSX
+
+[https://github.com/cuckydev/PSXFunkin](https://github.com/cuckydev/PSXFunkin) - Unofficial PSX port of Friday Night Funkin'
+

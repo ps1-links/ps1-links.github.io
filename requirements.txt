@@ -1,0 +1,2 @@
+mkdocs-pandoc
+mkdocs-simple-hooks

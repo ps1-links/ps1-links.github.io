@@ -1,0 +1,66 @@
+site_name: ps1-links
+site_url: http://ps1.consoledev.net/
+repo_url: https://github.com/ps1-links/ps1-links.github.io
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  palette:
+
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: red
+      accent: green
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: red
+      accent: green
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+
+extra_css:
+    - assets/css/style.css
+
+plugins:
+  - search
+  - mkdocs-simple-hooks:
+      hooks:
+        on_pre_build: "hooks:build_onepage"
+        
+nav:
+
+    - 'index.md'
+    - 'documentation.md'
+    - 'emulators.md'
+    - 'exploits_softmods.md'
+    - 'hardware_mod_adapters.md'
+    - 'misc_tools_other.md'
+    - 'nugget.md'
+    - 'other.md'
+    - 'programming_ressources.md'
+    - 'retail_source_code.md'
+    - 'reverse_engineering.md'
+    - 'sdk_toolchains_libraries.md'
+    - 'source_code_examples.md'
+
+pages:
+  - 'ps1-links': 'index.md'
+  - 'Documentations': 'documentation.md'
+  - 'Emulators': 'emulators.md'
+  - 'Exploits & Softmods': 'exploits_softmods.md'
+  - 'Hardware, mods & adapters': 'hardware_mod_adapters.md'
+  - 'Misc., tools & others': 'misc_tools_other.md'
+  - 'Nugget stuff': 'nugget.md'
+  - 'Other links': 'other.md'
+  - 'Programming ressources': 'programming_ressources.md'
+  - 'Retail source code': 'retail_source_code.md'
+  - 'Reverse engineering': 'reverse_engineering.md'
+  - 'SDKs, tollchains & libraries': 'sdk_toolchains_libraries.md'
+  - 'Source code examples': 'source_code_examples.md'
