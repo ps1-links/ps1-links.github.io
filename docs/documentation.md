@@ -2,7 +2,7 @@
 
 [Playstation Memory Map & Docs](http://www.elisanet.fi/6581/PSX/doc/Playstation_Hardware.pdf)
 
-[NoCa$h's PS1 Documentation](https://problemkaputt.de/psx-spx.htm) - See https://psx-spx.github.io/ for community-sourced updates
+[NoCa$h's PS1 Documentation](https://problemkaputt.de/psx-spx.htm) - See [https://psx-spx.consoledev.net/](https://psx-spx.consoledev.net/) for community-sourced updates
 
 [Padua's Playstation 1 Resource](http://web.archive.org/web/20170614051729/http://psx.padua.org/psxrul2.shtml) - A great wealth of technical info on the Playstation 1; very Assembly language heavy.
 
