@@ -3,7 +3,7 @@ from yaml import load
 try:
     from yaml import CLoader as Loader
 except ImportError:
-    from yaml import Loade
+    from yaml import Loader
 
 ROOT_FOLDER = "docs"
 
