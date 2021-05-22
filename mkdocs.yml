@@ -34,9 +34,8 @@ plugins:
   - mkdocs-simple-hooks:
       hooks:
         on_pre_build: "hooks:build_onepage"
-        
-nav:
 
+nav:
     - 'index.md'
     - 'documentation.md'
     - 'emulators.md'
