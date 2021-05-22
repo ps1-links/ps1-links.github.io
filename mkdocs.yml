@@ -4,6 +4,7 @@ repo_url: https://github.com/ps1-links/ps1-links.github.io
 edit_uri: edit/main/docs/
 
 theme:
+  logo: assets/logo.svg
   name: material
   palette:
 
@@ -33,9 +34,8 @@ plugins:
   - mkdocs-simple-hooks:
       hooks:
         on_pre_build: "hooks:build_onepage"
-        
-nav:
 
+nav:
     - 'index.md'
     - 'documentation.md'
     - 'emulators.md'
@@ -49,18 +49,3 @@ nav:
     - 'reverse_engineering.md'
     - 'sdk_toolchains_libraries.md'
     - 'source_code_examples.md'
-
-pages:
-  - 'ps1-links': 'index.md'
-  - 'Documentations': 'documentation.md'
-  - 'Emulators': 'emulators.md'
-  - 'Exploits & Softmods': 'exploits_softmods.md'
-  - 'Hardware, mods & adapters': 'hardware_mod_adapters.md'
-  - 'Misc., tools & others': 'misc_tools_other.md'
-  - 'Nugget stuff': 'nugget.md'
-  - 'Other links': 'other.md'
-  - 'Programming ressources': 'programming_ressources.md'
-  - 'Retail source code': 'retail_source_code.md'
-  - 'Reverse engineering': 'reverse_engineering.md'
-  - 'SDKs, tollchains & libraries': 'sdk_toolchains_libraries.md'
-  - 'Source code examples': 'source_code_examples.md'

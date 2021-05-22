@@ -1,14 +1,33 @@
-import subprocess
+import os
 import fileinput
+from yaml import load
+try:
+    from yaml import CLoader as Loader
+except ImportError:
+    from yaml import Loade
 
-# ~ def build_onepage(*args, **kwargs):
+ROOT_FOLDER = "docs"
+
 def build_onepage(*args, **kwargs):
-    subprocess.call( [ "mkdocs2pandoc","-f","mkdocs.yml","-o","docs/one.md" ] )
-    
+    mkdocs = load(open("mkdocs.yml"), Loader=Loader)
+    files = mkdocs['nav']
 
-    # Remove lines 6 to 22 and replace '#' with '##' for a nice toc generation
-    with fileinput.FileInput("docs/one.md", inplace=True) as infile:
-        for line in infile:
-            if infile.lineno() > 6 and infile.lineno() < 22 :
-                continue
-            print( (line.replace('##', '#') ).replace( '#', '##' ) , end='')
+    # Remove index.md file
+    files.remove('index.md')
+
+    # If exists, remove one.md to avoid recursion loop
+    if 'one.md' in files:
+        files.remove('one.md')
+
+    with open(ROOT_FOLDER + os.sep + "one.md", "w") as outfile:
+        for file in files :
+            # Only use MD files
+            if file.endswith('.md'):
+                # Replace '_' with ',' except if last occurence, then '&'.
+                cleanName = file[:-3].replace('_',', ').capitalize().rsplit(', ',1)
+                amp = " & "
+                # Add header markup + linebreaks
+                outfile.write("\n## " + amp.join( cleanName ) + "\n\n")
+                with open(ROOT_FOLDER + os.sep + file) as mdfile:
+                    for line in mdfile:
+                        outfile.write( line ) 
