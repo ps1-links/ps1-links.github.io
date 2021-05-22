@@ -1,5 +1,4 @@
 import os
-import fileinput
 from yaml import load
 try:
     from yaml import CLoader as Loader
