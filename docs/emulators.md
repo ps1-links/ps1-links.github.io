@@ -1,3 +1,5 @@
+[PCSX-Redux](https://github.com/grumpycoders/pcsx-redux) - PCSX-Redux is the latest iteration of PCSX, still supported today, and mainly focused on development and reverse engineering. Works on Windows, Linux, and MacOS.
+
 [https://github.com/tetious/pcsxr](https://github.com/tetious/pcsxr) -  PCSX-Reloaded is a PlayStation Emulator based on PCSX-df 1.9, with support for Windows, GNU/Linux and Mac OS X.
 
 [https://github.com/joroOnLinux/pcsxr-1.9.92-Optimized](https://github.com/joroOnLinux/pcsxr-1.9.92-Optimized) - pcsxr-opimized
