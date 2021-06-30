@@ -15,3 +15,7 @@
 [https://github.com/RetailGameSourceCode/UltimateMortalKombat3](https://github.com/RetailGameSourceCode/UltimateMortalKombat3) - Ultimate Mortal Kombat 3 's incomplete source code
 
 [http://www.psxdev.net/forum/viewtopic.php?f=41&t=470](http://www.psxdev.net/forum/viewtopic.php?f=41&t=470) - Beatmania APPEND 5thMIX - 1999.11.25 Psy-Q Source Code
+
+[https://archive.org/details/acclaim_discs](https://archive.org/details/acclaim_discs) - Acclaim's quagmire engine sources and assets
+
+[https://archive.org/details/Various-Mortal-Kombat-3-Source-Code-Collection](https://archive.org/details/Various-Mortal-Kombat-3-Source-Code-Collection) - Various Mortal Kombat 3 Source Code Collections
