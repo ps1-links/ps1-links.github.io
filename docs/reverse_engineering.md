@@ -16,4 +16,10 @@
 
 [https://macrox.gshi.org/The%20Hacking%20Text.htm](https://macrox.gshi.org/The%20Hacking%20Text.htm) -  The secrets of professional gameshark hacking
 
+[https://github.com/lab313ru/ghidra_psx_ldr](https://github.com/lab313ru/ghidra_psx_ldr) - Sony Playstation PSX executables loader for GHIDRA  
+
 [https://github.com/Erick194/PSXDOOM-RE](https://github.com/Erick194/PSXDOOM-RE) - Doom-RE
+
+[https://github.com/FoxdieTeam/mgs_reversing](https://github.com/FoxdieTeam/mgs_reversing) - Metal Gear Solid PSX reimpl repo 
+
+

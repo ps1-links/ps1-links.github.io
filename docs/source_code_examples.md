@@ -97,3 +97,5 @@
 [https://github.com/ABelliqueux/ovl-upload](https://github.com/ABelliqueux/ovl-upload) - On-demand overlay upload from PC to PSX
 
 [https://github.com/cuckydev/PSXFunkin](https://github.com/cuckydev/PSXFunkin) - Unofficial PSX port of Friday Night Funkin'
+
+[https://github.com/ArthCarvalho/a-game-engine](https://github.com/ArthCarvalho/a-game-engine) - A game engine for the PlayStation 1.  
