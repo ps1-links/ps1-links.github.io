@@ -1,7 +1,7 @@
-[https://github.com/philosophofee/SBSPSS](https://github.com/philosophofee/SBSPSS) -  The source code repository for the PlayStation 1 game, SpongeBob SquarePants: SuperSponge
+[https://ps1.consoledev.net/nugget/](https://ps1.consoledev.net/nugget/) - 'Nugget' is the nickname for the method of compiling PSX executables using a modern GCC.  
 
-[https://github.com/dizzy2003/MuckyFoot-UrbanChaos/tree/master/fallen/PSXENG](https://github.com/dizzy2003/MuckyFoot-UrbanChaos/tree/master/fallen/PSXENG) - MuckyFoot's 1996 Urban Chaos PC, PSX and maybe DC sources
+[https://github.com/Lameguy64/PSn00bSDK](https://github.com/Lameguy64/PSn00bSDK) -  The most powerful open source SDK for the PS1 (as far as open source PS1 SDKs go). Not recommended for beginner use.  
 
-[https://archive.org/details/warcraftIIsourcecodePSX](https://archive.org/details/warcraftIIsourcecodePSX) - Blizzard's 1997 game Warcraft II PSX source code
+[https://github.com/ChenThread/candyk-psx](https://github.com/ChenThread/candyk-psx) - CandyK-PSX: A candy shop of tools and libraries for PlayStation development.  
 
-[https://archive.org/details/ReVoltXboxAndPCSourceCode](https://archive.org/details/ReVoltXboxAndPCSourceCode) - Acclaim's Re-Volt source code, PC/Xbox version but some PSX files remain in the archive
+[https://github.com/ChrisRx/psxsdk](https://github.com/ChrisRx/psxsdk) - psxsdk is a collection of tools and libraries for Playstation 1 development 

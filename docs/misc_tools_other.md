@@ -83,3 +83,11 @@
 [https://github.com/gmarkall/psx-toolchain](https://github.com/gmarkall/psx-toolchain) - PSX toolchain building scripts
 
 [https://github.com/YusufCelik/newroze](https://github.com/YusufCelik/newroze) - A PSX Debugger with a GDB server  
+
+[https://github.com/Joy-Division/tools-mgs](https://github.com/Joy-Division/tools-mgs) - Tools for working with files from Metal Gear Solid
+
+[https://github.com/CTR-tools/CTR-tools](https://github.com/CTR-tools/CTR-tools) -  a C# framework and a set of tools to parse files found in the original kart racing game by Naughty Dog.  
+
+[https://github.com/dezgeg/crash-bandicoot-password-cracking] - Reverse engineering the Crash Bandicoot password generation algorithm  
+
+[https://github.com/cbhacks/CrashEdit](https://github.com/cbhacks/CrashEdit) - Unofficial Crash Bandicoot 1/2/3 Level Editor   

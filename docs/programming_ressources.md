@@ -16,3 +16,5 @@ tutorials & samples for developing for the PS1 and Net Yaroze.
 [https://github.com/Bigbudddo/psx-pong](https://github.com/Bigbudddo/psx-pong) -  A repo for building and learning how to create games for the Playstation 1 (PSX). It will be a simple game of Pong.
 
 [https://github.com/williamblair/PSX_App](https://github.com/williamblair/PSX_App) -  Class for making Playstation 1 apps using PSYQ
+
+[https://www.retroreversing.com/ps1/](https://www.retroreversing.com/ps1/) - PSX section of retroreversing.com
