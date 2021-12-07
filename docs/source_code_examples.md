@@ -80,7 +80,7 @@
 
 [https://github.com/ABelliqueux/nolibgs_hello_worlds](https://github.com/ABelliqueux/nolibgs_hello_worlds) -  Repo of PSX examples NOT using libgs 
 
-[https://psx.arthus.net](https://psx.arthus.net) - utils, sdk, roms, samples... archive 
+[https://psx.schnappy.xyz](https://psx.schnappy.xyz) - utils, sdk, roms, samples... archive 
  
 [https://github.com/Galbar/GGJ-2017](https://github.com/Galbar/GGJ-2017) -  Deathball, game with ball physics
 
@@ -99,3 +99,5 @@
 [https://github.com/cuckydev/PSXFunkin](https://github.com/cuckydev/PSXFunkin) - Unofficial PSX port of Friday Night Funkin'
 
 [https://github.com/ArthCarvalho/a-game-engine](https://github.com/ArthCarvalho/a-game-engine) - A game engine for the PlayStation 1.  
+
+[https://github.com/ABelliqueux/nolibgs_demo](https://github.com/ABelliqueux/nolibgs_demo) - A PSX demo CD using overlays, fmv streaming and mod sound playback
