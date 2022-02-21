@@ -2,6 +2,8 @@
 
 Welcome to the PSX development links center, where all the links related to development on the first Playstation meet !
 
+To discuss the contents of this document, or hang out with likely minded people on development, hacking, and reverse engineering of Sony's first console, feel free to [join the PSXDev Network Discord Server](https://discord.gg/QByKPpH).
+
 You can find a one page version of this site here : [One page version](one.md)
 
 [Documentations](documentation.md)  
