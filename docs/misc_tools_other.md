@@ -88,6 +88,8 @@
 
 [https://github.com/CTR-tools/CTR-tools](https://github.com/CTR-tools/CTR-tools) -  a C# framework and a set of tools to parse files found in the original kart racing game by Naughty Dog.  
 
-[https://github.com/dezgeg/crash-bandicoot-password-cracking] - Reverse engineering the Crash Bandicoot password generation algorithm  
+[https://github.com/dezgeg/crash-bandicoot-password-cracking](https://github.com/dezgeg/crash-bandicoot-password-cracking) - Reverse engineering the Crash Bandicoot password generation algorithm
 
-[https://github.com/cbhacks/CrashEdit](https://github.com/cbhacks/CrashEdit) - Unofficial Crash Bandicoot 1/2/3 Level Editor   
+[https://github.com/cbhacks/CrashEdit](https://github.com/cbhacks/CrashEdit) - Unofficial Crash Bandicoot 1/2/3 Level Editor
+
+[https://github.com/G4Vi/psx_mc_cli](https://github.com/G4Vi/psx_mc_cli) - Crossplatform cli utilities for working with PSX memory card files
