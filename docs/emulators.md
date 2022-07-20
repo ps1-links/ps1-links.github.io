@@ -1,4 +1,4 @@
-[PCSX-Redux](https://github.com/grumpycoders/pcsx-redux#pcsx-redux) - PCSX-Redux is the latest iteration of PCSX, still supported today, and mainly focused on development and reverse engineering. Works on Windows, Linux, and MacOS.
+[PCSX-Redux](https://github.com/grumpycoders/pcsx-redux#pcsx-redux) - PCSX-Redux is the latest iteration of PCSX, the popular open source PlayStation emulator, still supported today, and mainly focused on development and reverse engineering. Works on Windows, Linux, and MacOS.
 
 [Duckstation](https://github.com/stenzek/duckstation) - Duckstation is a fast, accurate, and easy-to-use PlayStation emulator for Windows, Linux, MacOS, and Android.
 
