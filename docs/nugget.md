@@ -1,6 +1,6 @@
 'Nugget' is the nickname for the method of compiling PSX executables using a modern GCC (with docker) and optionally the converted Psy-Q libraries.
 
-[https://github.com/pcsx-redux/nugget/tree/main/psyqo](https://github.com/pcsx-redux/nugget/tree/main/psyqo) - The root of the Nugget repository.  
+[https://github.com/pcsx-redux/nugget/](https://github.com/pcsx-redux/nugget/) - The root of the Nugget repository.  
 
 [https://github.com/ABelliqueux/nolibgs_hello_worlds](https://github.com/ABelliqueux/nolibgs_hello_worlds) - PsyQ - How to use the converted PSYQ libs in various examples, without using PsyQ's libgs functions.  
 
