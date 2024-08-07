@@ -1,0 +1,651 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="http://ps1.consoledev.net/source_code_examples/">
+      
+      
+        <link rel="prev" href="../retail_source_code/">
+      
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.17">
+    
+    
+      
+        <title>Source code examples - ps1-links</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.bcfcd587.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/css/style.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="red" data-md-color-accent="green">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="ps1-links" class="md-header__button md-logo" aria-label="ps1-links" data-md-component="logo">
+      
+  <img src="../assets/logo.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            ps1-links
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Source code examples
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="red" data-md-color-accent="green"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="red" data-md-color-accent="green"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3Z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/ps1-links/ps1-links.github.io" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="ps1-links" class="md-nav__button md-logo" aria-label="ps1-links" data-md-component="logo">
+      
+  <img src="../assets/logo.svg" alt="logo">
+
+    </a>
+    ps1-links
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/ps1-links/ps1-links.github.io" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    PSX development links center
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../nugget/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Nugget
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../documentation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Documentation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../programming_ressources/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Programming ressources
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../other/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Other
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../reverse_engineering/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Games
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../emulators/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Emulators
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sdk_toolchains_libraries/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sdk toolchains libraries
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../exploits_softmods/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Exploits softmods
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../hardware_mod_adapters/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Hardware mod adapters
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../misc_tools_other/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Misc tools other
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../retail_source_code/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Retail source code
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Source code examples
+  </span>
+  
+
+      </a>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+  <h1>Source code examples</h1>
+
+<p><a href="https://github.com/XaviDCR92/Pinballoid">https://github.com/XaviDCR92/Pinballoid</a> -  Open-source Sony PlayStation 1 (PSX) video game</p>
+<p><a href="https://github.com/apiraino/psx_tapper">https://github.com/apiraino/psx_tapper</a> -  A Tapper clone for Playstation 1.</p>
+<p><a href="https://github.com/electrobs/TEST-PSX-GLFW-Moving_Square">https://github.com/electrobs/TEST-PSX-GLFW-Moving_Square</a> -  Test program to compile a simple application on Linux and the PlayStation (original)</p>
+<p><a href="https://github.com/ProFiLeR4100/psx-flappy-bird">https://github.com/ProFiLeR4100/psx-flappy-bird</a> -  Flappy Bird for the PS1</p>
+<p><a href="https://github.com/emvivre/3D-Point-Cloud-PSX-Demo">https://github.com/emvivre/3D-Point-Cloud-PSX-Demo</a> -  This is a PSX demo for the PSXDEV Codeblast '14 competition.</p>
+<p><a href="https://github.com/fabiopallini/ps1-graphics-demo">https://github.com/fabiopallini/ps1-graphics-demo</a> -  PlayStation 1 3D graphics Demo</p>
+<p><a href="https://github.com/EvelynRiales/Danger-Force-Psyq">https://github.com/EvelynRiales/Danger-Force-Psyq</a> -  Danger force written in C for classic consoles using the official Psyq SDK</p>
+<p><a href="https://github.com/jmiller656/PS1-Experimentation">https://github.com/jmiller656/PS1-Experimentation</a> -  Making Playstation games using psyq sdk</p>
+<p><a href="https://github.com/fanzyflani/ld33">https://github.com/fanzyflani/ld33</a> - Frametime, a PS1 game for the LD33 Jam category</p>
+<p><a href="https://github.com/julian-goldsmith/ps1">https://github.com/julian-goldsmith/ps1</a> -  Old code for the PlayStation.</p>
+<p><a href="https://github.com/dominictoms/leek-quest-ps1">https://github.com/dominictoms/leek-quest-ps1</a> -  sprite based ps1 game</p>
+<p><a href="https://github.com/fanzyflani/mld62">https://github.com/fanzyflani/mld62</a> -  Currently unnamed PS1 game for MiniLD62.</p>
+<p><a href="https://github.com/MatthewJohn/PS1_Pong">https://github.com/MatthewJohn/PS1_Pong</a> -  Another PONG Clone</p>
+<p><a href="https://github.com/OfficialMoonlit/ButtonMasher">https://github.com/OfficialMoonlit/ButtonMasher</a> -  Basic reaction time game for PS1</p>
+<p><a href="https://github.com/OfficialMoonlit/RPS-PS1-v1">https://github.com/OfficialMoonlit/RPS-PS1-v1</a> -  Rock Paper Scissors for PS1: Text Version</p>
+<p><a href="https://github.com/scnipper/PS1Games">https://github.com/scnipper/PS1Games</a> -  source for WIP game creation (tic tac toe example)</p>
+<p><a href="https://github.com/sleepingburrito/QuadrilateralConundrum">https://github.com/sleepingburrito/QuadrilateralConundrum</a> -  Quadrilateral Conundrum is a simple Tetris homebrew clone for ps1.</p>
+<p><a href="https://github.com/dhustkoder/pschip8">https://github.com/dhustkoder/pschip8</a> -  PlayStation 1 Chip8 Interpreter</p>
+<p><a href="https://github.com/komos90/psx-dev">https://github.com/komos90/psx-dev</a> -  A repo for bare metal psx mips stuff</p>
+<p><a href="https://github.com/johanfredin/psx-dev">https://github.com/johanfredin/psx-dev</a> -  more Code Examples.</p>
+<p><a href="https://github.com/micklemacklemore/mikesPlaystationStuff">https://github.com/micklemacklemore/mikesPlaystationStuff</a> -  I'm learning to make Playstation 1 games with C</p>
+<p><a href="https://github.com/david4599/Devinette-for-Playstation-1">https://github.com/david4599/Devinette-for-Playstation-1</a> -  Guessing Game (more or less) for the Playstation 1.</p>
+<p><a href="https://github.com/jonipievilainen/playstation-1-game-dev">https://github.com/jonipievilainen/playstation-1-game-dev</a> - PSX development on WinXP + PsyQ </p>
+<p><a href="https://github.com/petrusd987/PSXTemplate">https://github.com/petrusd987/PSXTemplate</a> -  A simple template for a Playstation 1 game using PSXSDK</p>
+<p><a href="https://github.com/aaronjamt/3-Player-Pong">https://github.com/aaronjamt/3-Player-Pong</a> -  A 3-player WIP Pong-style game that links a TI-86 Graphing Calculator and a Sony PlayStation 1 through a network. Players 1 and 2 use the PlayStation, while Player 3 can affect the game using the calculator.</p>
+<p><a href="https://github.com/aj50009/psge">https://github.com/aj50009/psge</a> -  playstation 1 game engine (psge) (not completed/never finished)</p>
+<p><a href="https://github.com/zid/psx">https://github.com/zid/psx</a> -  PSX example code remote backup</p>
+<p><a href="https://github.com/megakode/psx-lighting-example">https://github.com/megakode/psx-lighting-example</a> -  Simple lighting example for the Playstation 1</p>
+<p><a href="https://github.com/Monakou/PSX_Programs">https://github.com/Monakou/PSX_Programs</a> -  programs written for the PlayStation 1, using PsyQ libraries</p>
+<p><a href="https://github.com/vinicyusmacedo/psxdev-experiments">https://github.com/vinicyusmacedo/psxdev-experiments</a> -  Some PSX experiments http://www.psxdev.net/help.html</p>
+<p><a href="https://github.com/williamblair/PSX-Lowlevel">https://github.com/williamblair/PSX-Lowlevel</a> -  Low level playstation 1 programming (no sdk)</p>
+<p><a href="https://github.com/williamblair/PSYQ_cplusplus">https://github.com/williamblair/PSYQ_cplusplus</a> -  C++ implementation of psyq tutorial/example programs for the sony playstation 1 (psx)</p>
+<p><a href="https://github.com/Chip-84/chip-84-psx">https://github.com/Chip-84/chip-84-psx</a> -  Chip-84 port to the PlayStation 1</p>
+<p><a href="https://github.com/Bigbudddo/psx-block-breaker">https://github.com/Bigbudddo/psx-block-breaker</a> -  First attempt at creating a PlayStation 1 (PSX) game from scratch without following tutorial games and only using documentation.</p>
+<p><a href="https://github.com/AlekseyKolesnikov/Classic-Card-Games-PSX">https://github.com/AlekseyKolesnikov/Classic-Card-Games-PSX</a> -  This is a game for PSX (PlayStation 1), written at 2000. (source code)</p>
+<p><a href="https://github.com/williamblair/psn00b_progs">https://github.com/williamblair/psn00b_progs</a> -  Playstation 1 Programs using PSn00bSDK</p>
+<p><a href="https://github.com/L-proger/PS1Dev">https://github.com/L-proger/PS1Dev</a> -  PlayStation1 sandbox project</p>
+<p><a href="https://github.com/juanmv94/Flappy-Adventure-X/">https://github.com/juanmv94/Flappy-Adventure-X/</a> -  Juannmv94's prototype 2D/3D flappy bird platformer</p>
+<p><a href="https://github.com/sk-io/psx-engine">https://github.com/sk-io/psx-engine</a> -  Tive's 3D FPS engine</p>
+<p><a href="https://github.com/ABelliqueux/Bow_and_Arrow_psx">https://github.com/ABelliqueux/Bow_and_Arrow_psx</a> -  Remake of 1992's dos game Bow &amp; Arrow</p>
+<p><a href="https://github.com/ABelliqueux/nolibgs_hello_worlds">https://github.com/ABelliqueux/nolibgs_hello_worlds</a> -  Repo of PSX examples NOT using libgs </p>
+<p><a href="https://psx.schnappy.xyz">https://psx.schnappy.xyz</a> - utils, sdk, roms, samples... archive </p>
+<p><a href="https://github.com/Galbar/GGJ-2017">https://github.com/Galbar/GGJ-2017</a> -  Deathball, game with ball physics</p>
+<p><a href="https://github.com/Wituz/wituz-youtube/tree/master/ps1-game-tutorial">https://github.com/Wituz/wituz-youtube/tree/master/ps1-game-tutorial</a> - Wituz's ps1 game tutorial companion github page  </p>
+<p><a href="https://download.blender.org/source/chest/neogeo/playstation_engine/">https://download.blender.org/source/chest/neogeo/playstation_engine/</a> - Legacy blender game engine code for PSX exports  </p>
+<p><a href="https://github.com/alextrevisan/PS1FixedPoint">https://github.com/alextrevisan/PS1FixedPoint</a> - FixedPoint Arithmetic in C++ for PS1 using PSn00bSDK and modern C++  </p>
+<p><a href="https://github.com/alextrevisan/LastSurvivor">https://github.com/alextrevisan/LastSurvivor</a> - PS1 Game using modern c++ and PSn00bSDK</p>
+<p><a href="https://github.com/NDR008/psxBreakout">https://github.com/NDR008/psxBreakout</a> - PsyQ - NDR's Breakout game demo using PSQY + nugget.  </p>
+<p><a href="https://github.com/ABelliqueux/ovl-upload">https://github.com/ABelliqueux/ovl-upload</a> - On-demand overlay upload from PC to PSX</p>
+<p><a href="https://github.com/cuckydev/PSXFunkin">https://github.com/cuckydev/PSXFunkin</a> - Unofficial PSX port of Friday Night Funkin'</p>
+<p><a href="https://github.com/ArthCarvalho/a-game-engine">https://github.com/ArthCarvalho/a-game-engine</a> - A game engine for the PlayStation 1.  </p>
+<p><a href="https://github.com/ABelliqueux/nolibgs_demo">https://github.com/ABelliqueux/nolibgs_demo</a> - A PSX demo CD using overlays, fmv streaming and mod sound playback</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.1e8ae164.min.js"></script>
+      
+    
+  </body>
+</html>
