@@ -1,5 +1,7 @@
 # Games
 
+[https://gitlab.com/megamanlegends](https://gitlab.com/megamanlegends) - Mega Man Legends 1 and 2 various tools (asset extraction, save state browsing etc.).
+
 [https://tetracorp.github.io/tokimeki-memorial/](https://tetracorp.github.io/tokimeki-memorial/) - Tokimeki Memorial reverse-engineering articles. Contains a lot of useful info on how to get started with PSX reverse engineering.
 
 [https://github.com/AliveTeam/alive_reversing](https://github.com/AliveTeam/alive_reversing) - Re-implementation of Oddworld: Abe's Exoddus and Oddworld: Abe's Oddysee.
