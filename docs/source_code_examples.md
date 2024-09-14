@@ -38,7 +38,9 @@
 
 [https://github.com/johanfredin/psx-dev](https://github.com/johanfredin/psx-dev) -  more Code Examples.
 
-[https://github.com/micklemacklemore/mikesPlaystationStuff](https://github.com/micklemacklemore/mikesPlaystationStuff) -  I'm learning to make Playstation 1 games with C
+[https://github.com/micklemacklemore/playstationAssembly](https://github.com/micklemacklemore/playstationAssembly) - Some simple Playstation 1 assembly examples. 
+
+[https://github.com/micklemacklemore/psx_cube_demo](https://github.com/micklemacklemore/psx_cube_demo) - Spinning cubes C example. 
 
 [https://github.com/david4599/Devinette-for-Playstation-1](https://github.com/david4599/Devinette-for-Playstation-1) -  Guessing Game (more or less) for the Playstation 1.
 
