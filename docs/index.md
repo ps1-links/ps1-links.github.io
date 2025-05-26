@@ -22,7 +22,7 @@ You can find a one page version of this site here : [One page version](one.md)
 
 [Others sites](other.md)
 
-[Programming ressources](programming_ressources.md)
+[Programming resources](programming_ressources.md)
 
 [Retail source code](retail_source_code.md)
 
