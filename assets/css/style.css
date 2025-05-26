@@ -1,0 +1,42 @@
+[data-md-color-scheme="slate"] {
+    --md-primary-fg-color: #DA1E1E;
+    --md-default-bg-color:#444;
+    --md-footer-bg-color:#444;
+    --md-main-bg-color: #44444488;
+}
+
+[data-md-color-scheme="default"] {
+    --md-primary-fg-color: #ff4949;
+    --md-default-bg-color:#f3f3f3;
+    --md-footer-bg-color:#444;
+    --md-main-bg-color: transparent;
+}
+
+body{
+    background-image:url('../psxback1.jpg');
+    background-attachment:fixed;
+    height: 100%;
+}
+
+.md-header__button.md-logo img, .md-header__button.md-logo svg {
+    height: 32px;
+    width: 32px;
+}
+
+.md-main{
+    background-color:var(--md-main-bg-color);
+}
+
+.md-main__inner{
+    background-color:var(--md-default-bg-color);
+    margin-top: 0;
+}
+
+.md-sidebar{
+    height: auto !important;
+}
+
+.md-footer__title:hover, .md-footer__title:focus{
+    opacity:1;
+    color:var(--md-accent-fg-color);
+}
