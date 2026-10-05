@@ -1,6 +1,6 @@
 [https://psx-spx.consoledev.net/](https://psx-spx.consoledev.net/) - This is a conversion/edition of Martin "nocash" Korth's Playstation specs document originally hosted at [https://problemkaputt.de/psx-spx.htm](https://problemkaputt.de/psx-spx.htm)  
 
-[http://psx.schnappy.xyz/starting](http://psx.schnappy.xyz/starting) Everything to get you started in PSX dev on one page  
+[http://psx.schnappy.xyz/starting](https://web.archive.org/web/20231201183607/http://psx.schnappy.xyz/starting) Everything to get you started in PSX dev on one page  
 
 [https://schnappy.xyz/nolibgs/](https://schnappy.xyz/nolibgs/) - Wiki that documents data conversion and usage for PSX formats.  
 

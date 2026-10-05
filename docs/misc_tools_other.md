@@ -49,7 +49,7 @@
 
 [PSXNet](https://github.com/Lameguy64/psxnet) - A simple library and client program to get the original PlayStation to connect to the internet, by LameGuy64.
 
-[PSXDev-VRAM Viewer](https://github.com/david4599/psxdev-VRAMViewer) - Playstation 1 Development - VRAM viewer for [Orion_'s PsxLib](http://onorisoft.free.fr/psx/tutorial/psxlib.zip), by David Asselineau.
+[PSXDev-VRAM Viewer](https://web.archive.org/web/20250802041523/https://github.com/david4599/psxdev-VRAMViewer) - Playstation 1 Development - VRAM viewer for [Orion_'s PsxLib](https://web.archive.org/web/20240317233450/http://onorisoft.free.fr/psx/tutorial/psxlib.zip), by David Asselineau.
 
 [https://github.com/danhans42/nxflash](https://github.com/danhans42/nxflash) -  NXFLASH Xplorer/Xplorer/AR/GS Flasher for Sony PlayStation
 
@@ -63,7 +63,7 @@
 
 [https://github.com/Lameguy64/psxnet ](https://github.com/Lameguy64/psxnet ) -  A simple library and client program to get the original PlayStation to connect to the internet.
 
-[https://github.com/XaviDCR92/OpenSend](https://github.com/XaviDCR92/OpenSend) -  PSX application to upload PSX-EXE dinamically.
+[https://github.com/XaviDCR92/OpenSend](https://web.archive.org/web/20241127030422/https://github.com/XaviDCR92/OpenSend) -  PSX application to upload PSX-EXE dinamically.
 
 [https://github.com/gwald/Yarexe](https://github.com/gwald/Yarexe) -  converts Net Yaroze ecoff and siocon's script to a psx.exe 
 
@@ -71,7 +71,7 @@
 
 [https://github.com/dezgeg/VdfViewer](https://github.com/dezgeg/VdfViewer) -  PSX VDF (Vertex Difference Format) animation viewer
 
-[https://github.com/dx4m/x-flash-psx-toolset](https://github.com/dx4m/x-flash-psx-toolset) -  X-Flash Toolset to check, generate, pack and unpack a ROMFILE.DAT for the X-Flash eeprom flashing software.
+[https://github.com/dx4m/x-flash-psx-toolset](https://web.archive.org/web/20200920063744/https://github.com/dx4m/x-flash-psx-toolset) -  X-Flash Toolset to check, generate, pack and unpack a ROMFILE.DAT for the X-Flash eeprom flashing software.
 
 [https://github.com/CodeAsm/PS1Linux](https://github.com/CodeAsm/PS1Linux) -  Linux for the original sony playstation one.
 
@@ -85,7 +85,7 @@
 
 [https://github.com/ArthCarvalho/PSX-LZ77](https://github.com/ArthCarvalho/PSX-LZ77) -  An assembly optimized LZ77 decompressor for the PlayStation 1.
 
-[https://github.com/XaviDCR92/rspsxserial](https://github.com/XaviDCR92/rspsxserial) -  A command line application which enables serial communications against a PlayStation 1
+[https://github.com/XaviDCR92/rspsxserial](https://web.archive.org/web/20241128211156/https://github.com/XaviDCR92/rspsxserial) -  A command line application which enables serial communications against a PlayStation 1
 
 [https://github.com/ABelliqueux/blender_io_export_psx_mesh](https://github.com/ABelliqueux/blender_io_export_psx_mesh) -  Blender <=2.79b plugin to export meshes in a scene to a custom .c file
 

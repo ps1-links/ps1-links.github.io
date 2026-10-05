@@ -6,7 +6,7 @@
 
 [https://github.com/NDR008/VSCodePSX](https://github.com/NDR008/VSCodePSX) - Get coding for PSX on Win 10 64bit with VS Code and GDB
 
-[https://github.com/JonathanDotCel/helloworld_and_flappycredits](https://github.com/JonathanDotCel/helloworld_and_flappycredits) - No PSYQ - A hello world GPU/Pads/Sprite example with no SDK.  
+[https://github.com/JonathanDotCel/helloworld_and_flappycredits](https://web.archive.org/web/20260415121925/https://github.com/JonathanDotCel/helloworld_and_flappycredits) - No PSYQ - A hello world GPU/Pads/Sprite example with no SDK.  
 
 [https://github.com/JaberwockySeamonstah/PSXOverlayExample](https://github.com/JaberwockySeamonstah/PSXOverlayExample) - Using Overlays without the PSY-Q Toolchain  
 
