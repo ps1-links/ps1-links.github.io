@@ -3,29 +3,39 @@ on:
   push:
     branches:
       - main
+  pull_request:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   build:
-    name: Deploy docs
+    name: Build and deploy docs
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout main
-        uses: actions/checkout@v1
-
-      - name: Cancel previous run
-        uses: n1hility/cancel-previous-runs@v2
+      - uses: actions/checkout@v4
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
 
-      - name: Recall previous docker images
-        uses: satackey/action-docker-layer-caching@v0.0.11
-        continue-on-error: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
 
-      - name: Deploy docs
-        uses: mhausenblas/mkdocs-deploy-gh-pages@master
-        # Or use mhausenblas/mkdocs-deploy-gh-pages@nomaterial to build without the mkdocs-material theme
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          CUSTOM_DOMAIN: ps1.consoledev.net
-          CONFIG_FILE: mkdocs.yml
-          EXTRA_PACKAGES: build-base
+      - name: Install
+        run: pip install mkdocs-material -r requirements.txt
+
+      - name: Build
+        if: github.event_name == 'pull_request'
+        run: mkdocs build
+
+      - name: Deploy
+        if: github.event_name == 'push'
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          mkdocs gh-deploy --force
