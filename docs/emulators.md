@@ -8,7 +8,7 @@
 
 [https://github.com/joroOnLinux/pcsxr-1.9.92-Optimized](https://github.com/joroOnLinux/pcsxr-1.9.92-Optimized) - pcsxr-optimized
 
-[https://github.com/briaguya/gpuPeopsOpenGL-camera](https://github.com/briaguya/gpuPeopsOpenGL-camera) -  PSX Open GL Graphics plugin with camera movement
+[https://github.com/briaguya/gpuPeopsOpenGL-camera](https://web.archive.org/web/20200906165132/https://github.com/briaguya/gpuPeopsOpenGL-camera/) -  PSX Open GL Graphics plugin with camera movement
 
 [https://github.com/myst6re/highly_experimental](https://github.com/myst6re/highly_experimental) -  PSX Emulator made to emulate the SPU
 

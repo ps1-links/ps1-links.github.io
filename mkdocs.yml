@@ -42,6 +42,7 @@ nav:
     - 'programming_ressources.md'
     - 'other.md'
     - 'reverse_engineering.md'
+    - 'game_ports.md'
     - 'emulators.md'
     - 'sdk_toolchains_libraries.md'
     - 'exploits_softmods.md'

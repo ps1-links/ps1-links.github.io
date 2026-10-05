@@ -1,4 +1,4 @@
-[https://github.com/XaviDCR92/Pinballoid](https://github.com/XaviDCR92/Pinballoid) -  Open-source Sony PlayStation 1 (PSX) video game
+[https://github.com/XaviDCR92/Pinballoid](https://web.archive.org/web/20221228124957/https://github.com/XaviDCR92/Pinballoid) -  Open-source Sony PlayStation 1 (PSX) video game
 
 [https://github.com/apiraino/psx_tapper](https://github.com/apiraino/psx_tapper) -  A Tapper clone for Playstation 1.
 
@@ -10,7 +10,7 @@
 
 [https://github.com/fabiopallini/ps1-graphics-demo](https://github.com/fabiopallini/ps1-graphics-demo) -  PlayStation 1 3D graphics Demo
 
-[https://github.com/EvelynRiales/Danger-Force-Psyq](https://github.com/EvelynRiales/Danger-Force-Psyq) -  Danger force written in C for classic consoles using the official Psyq SDK
+[https://github.com/EvelynRiales/Danger-Force-Psyq](https://web.archive.org/web/20201022150902/https://github.com/EvelynRiales/Danger-Force-Psyq) -  Danger force written in C for classic consoles using the official Psyq SDK
 
 [https://github.com/jmiller656/PS1-Experimentation](https://github.com/jmiller656/PS1-Experimentation) -  Making Playstation games using psyq sdk
 
@@ -36,13 +36,13 @@
 
 [https://github.com/komos90/psx-dev](https://github.com/komos90/psx-dev) -  A repo for bare metal psx mips stuff
 
-[https://github.com/johanfredin/psx-dev](https://github.com/johanfredin/psx-dev) -  more Code Examples.
+[https://github.com/johanfredin/psx-dev](https://web.archive.org/web/20220101004846/https://github.com/johanfredin/psx-dev) -  more Code Examples.
 
 [https://github.com/micklemacklemore/playstationAssembly](https://github.com/micklemacklemore/playstationAssembly) - Some simple Playstation 1 assembly examples. 
 
 [https://github.com/micklemacklemore/psx_cube_demo](https://github.com/micklemacklemore/psx_cube_demo) - Spinning cubes C example. 
 
-[https://github.com/david4599/Devinette-for-Playstation-1](https://github.com/david4599/Devinette-for-Playstation-1) -  Guessing Game (more or less) for the Playstation 1.
+[https://github.com/david4599/Devinette-for-Playstation-1](https://web.archive.org/web/20241128204140/https://github.com/david4599/Devinette-for-Playstation-1) -  Guessing Game (more or less) for the Playstation 1.
 
 [https://github.com/jonipievilainen/playstation-1-game-dev](https://github.com/jonipievilainen/playstation-1-game-dev) - PSX development on WinXP + PsyQ 
 
@@ -58,7 +58,7 @@
 
 [https://github.com/Monakou/PSX_Programs](https://github.com/Monakou/PSX_Programs) -  programs written for the PlayStation 1, using PsyQ libraries
 
-[https://github.com/vinicyusmacedo/psxdev-experiments](https://github.com/vinicyusmacedo/psxdev-experiments) -  Some PSX experiments http://www.psxdev.net/help.html
+[https://github.com/vinicyusmacedo/psxdev-experiments](https://github.com/vinicyusmacedo/psxdev-experiments) -  Some PSX experiments https://web.archive.org/web/20251011031524/https://www.psxdev.net/help.html
 
 [https://github.com/williamblair/PSX-Lowlevel](https://github.com/williamblair/PSX-Lowlevel) -  Low level playstation 1 programming (no sdk)
 
